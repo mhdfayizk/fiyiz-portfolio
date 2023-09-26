@@ -8,7 +8,8 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import resumePDF from "../../assets/resume.pdf";
+import my from '../../assets/Fazz.png'
 
 
 const Hero = () => {
@@ -21,7 +22,7 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm MOHD FAYIZ
             </h2>
             <TypeAnimation
               data-aos="fade-up"
@@ -105,7 +106,7 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src={my}
               // src={mine}
               alt="mine"
             />

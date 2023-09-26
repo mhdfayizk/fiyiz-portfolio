@@ -38,10 +38,10 @@ const Resume = () => {
                   Software Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Company Name
+                  Sky Secretary
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2023 - Present
+                  Aug 2023 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -73,13 +73,13 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, Computer Science
+                  B,sc, Computer Science
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  College Name
+                  IHRD Vazhakkad(Calicut University),Malappuram
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2023 - Year 2027
+                  Year 2019 - Year 2022
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

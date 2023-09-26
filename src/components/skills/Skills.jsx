@@ -7,14 +7,15 @@ import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 
 import {
   SiJavascript,
-  SiTailwindcss,
-  SiMongodb,
-  SiExpress,
+  SiBootstrap,
+  SiPython,
+  SiDjango,
+  SiAngular,
+  SiMysql,
 } from "react-icons/si";
-import { GrCode } from "react-icons/gr";
-import { SiNextdotjs } from "react-icons/si";
+
 import { FaReact } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io";
+
 
 const Skills = ({ darkMode }) => {
   return (
@@ -49,11 +50,11 @@ const Skills = ({ darkMode }) => {
                   name={"Javascript"}
                   value={80}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={60} />
                 <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
-                  value={80}
+                  logo={<SiBootstrap />}
+                  name={"Bootstrap CSS"}
+                  value={90}
                 />
               </div>
             </div>
@@ -62,29 +63,29 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={<SiPython />}
                 black={"white"}
                 white={"black"}
-                skill={"Node Js"}
+                skill={"Python"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={<SiDjango />}
                 black={"white"}
                 white={"black"}
-                skill={"MongoDB"}
+                skill={"Django"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<SiAngular />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"Angular"}
               />
               <SkillBox
                 className=""
                 logo={
-                  <GrCode/>
+                  <SiMysql/>
                 }
                 black={"black"}
                 white={"white"}
